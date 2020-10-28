@@ -6,8 +6,8 @@ Please review the `millet.html` file and make some style changes to improve the 
 
 The following websites contain elements that the Boston Seeds staff have highlighted as being more user-friendly than the current implementation on the Farmseeds page:
 
-- [add example]
-- [add example]
+- https://www.cotswoldseeds.com/
+- http://shop.oliver-seeds.co.uk/
 
 Caveats and notes:
 
