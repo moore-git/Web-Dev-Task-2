@@ -18,3 +18,12 @@ Caveats and notes:
 **Time allowance: 30 minutes**
 
 Please fork or clone the repository to carry out the exercise. Please do not spend longer than the time allowance above, and make all code available on Github. Also, please modify this readme to indicate what changes have been made. 
+
+## Changes
+
+- Navigation is now sticky allowing the cart and relevant navigation to always be accessible
+- About/FAQ/Contact links have been moved, this evens out the dead space in the top right and stops them from drawing focus from the account and basket links
+- Home button removed as it's now standard practice to just have the company logo fulfil this purpose
+- Standard hover state styling (underline) added to About/FAQ/Contact links to aid usability
+- Account and cart links reordered to place the cart on the far right side to aid in usability as this is the standard location 
+- Fixed the type attribute for the linked exercise stylesheet
