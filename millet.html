@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="https://farmseeds.co.uk/css/94f2513.css?v1.10.0e" type="text/css" />
 
         <!-- Web Developer Exercise CSS: -->
-        <link rel="stylesheet" href="exercise.css" type="text.css" />
+        <link rel="stylesheet" href="exercise.css" type="text/css" />
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://farmseeds.co.uk/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://farmseeds.co.uk/apple-icon-60x60.png">
@@ -41,43 +41,44 @@
         <meta name="theme-color" content="#ffffff">
     </head>
     <body>
-        <header>
+        <header class="sticky-header">
             <div class="call-us-outer">
                 <div class="call-us clearfix">
                     Call us on 
                     <address class="tel">01205 281906</address>
+                    <ul class="site-details">
+                        <li><a href="/about">About Us</a></li>
+                        <li>|</li>
+                        <li><a href="/faqs">FAQs</a></li>
+                        <li>|</li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="nav-header-outer">
                 <nav class="nav-header">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/faqs">FAQs</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
-                    </ul>
                     <ul class="nav nav-pills">
+                        <li class="last">
+                            <a href="/register/" title="Register">
+                                <span>Register</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/login" title="Login">
+                                <span>Login</span>
+                            </a>
+                        </li>
                         <li id="CartItems" class="first">
-                            <a href="/cart" title="Cart (0) £0.00">    
+                            <a href="/cart" title="Cart (0) £0.00">
                                 <span>Cart (0) £0.00</span>
-                            </a>            
+                            </a>
                             <ul class="menu_level_1">
-                                <li id="miniCartItems" class="first last">        
+                                <li id="miniCartItems" class="first last">
                                     <a href="/cart">
                                         <span></span>
-                                    </a>        
+                                    </a>
                                 </li>
                             </ul>
-                        </li>
-                        <li>        
-                            <a href="/login" title="Login">    
-                                <span>Login</span>
-                            </a>        
-                        </li>
-                        <li class="last">        
-                            <a href="/register/" title="Register">    
-                                <span>Register</span>
-                            </a>        
                         </li>
                     </ul>
                 </nav>

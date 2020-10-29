@@ -1,1 +1,31 @@
 /* Add your style overrides here! */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.flashes {
+    margin-top: 213px;
+}
+
+.site-details {
+    float: right;
+    display: inline-block;
+}
+
+.site-details > li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.site-details > li > a {
+    text-decoration: none;
+}
+
+.site-details > li > a:hover {
+    text-decoration: underline;
+}
